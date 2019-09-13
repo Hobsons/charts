@@ -56,6 +56,10 @@ daemonset:
   ## Extra environment variables that will be pass onto deployment pods
   env: {}
 
+  ## Set podLabels if defined.
+  #
+  # podLabels: {}
+
 # If is behind a proxy you can set the proxy server
 proxy:
   httpProxy:
